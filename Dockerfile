@@ -1,6 +1,6 @@
 
 FROM ubuntu:latest
-MAINTAINER Bibin Wilson <bibin.w@hcl.com>
+MAINTAINER Rahul More
 RUN apt-get update
 RUN apt-get -y upgrade
 RUN apt-get -y install apache2 libapache2-mod-php5 pwgen python-setuptools vim-tiny php5-mysql php5-ldap
